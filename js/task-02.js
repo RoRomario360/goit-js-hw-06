@@ -11,7 +11,7 @@ const listInput = ingredients.map((elem) => {
   const listName = document.createElement("li");
   listName.textContent = `${elem}`;
   listName.classList.add("item");
-  console.log(listName);
-  const ulResult = document.querySelector("#ingredients");
-  ulResult.append(listName);
+  const ulResult = document.querySelector("#ingredients").append(listName);
 });
+
+// ulResult.append(listName);
