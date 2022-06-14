@@ -20,4 +20,5 @@ const imageElement = images.map((elem) => {
     "afterbegin",
     `<li><img class='img' width='500' src='${elem.url}' alt='${elem.alt}'/></li>`
   );
+  return listImages;
 });
