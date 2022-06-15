@@ -10,4 +10,5 @@ function onInputInBlur() {
   }
 
   inputText.classList.add("invalid");
+  inputText.classList.remove("valid");
 }
